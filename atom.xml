@@ -6,10 +6,28 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://s910702s910702.github.io/"/>
-  <updated>2018-07-12T18:52:51.040Z</updated>
+  <updated>2018-07-12T19:19:29.721Z</updated>
   <id>http://s910702s910702.github.io/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Pic test</title>
+    <link href="http://s910702s910702.github.io/2018/07/13/Pic-test/"/>
+    <id>http://s910702s910702.github.io/2018/07/13/Pic-test/</id>
+    <published>2018-07-12T19:13:49.000Z</published>
+    <updated>2018-07-12T19:19:29.721Z</updated>
+    
+    <content type="html"><![CDATA[<p>This article is testing the Pictures displaying.</p><a id="more"></a><p>Because I found that the static images is not work.</p><p>How to fix the problem:</p><ol><li>Make sure post_asset_folder in _config.yml is true</li><li>When writing a new article. The images should insert like this:<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![](XXXXXX.XXX)</span><br></pre></td></tr></table></figure></li></ol><p>Therefore, the result should be correct.</p><p><img src="Assassin.jpg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This article is testing the Pictures displaying.&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Code testing</title>
