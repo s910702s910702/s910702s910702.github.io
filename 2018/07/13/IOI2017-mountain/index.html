@@ -14,7 +14,7 @@
 <meta property="og:description" content="Mountains翻譯自：IOI2017 practice tasks - Mountains Tahmuras，古代波斯的第三個王，他征服了龐大數量的惡魔軍團。他現在想要把這些惡魔關在 Alborz 山，然後讓剩下的惡魔離開。 Alborz 山的稜線由 n 個頂點組成，第 i 個 (0 ≤ i ≤ n - 1) 頂點的座標為 (i, y[i]) ，其中 i 為長度，y[i] 為高度。 惡魔要被關">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="http://yoursite.com/2018/07/13/IOI2017-mountain/images/mountain.png">
-<meta property="og:updated_time" content="2018-07-12T17:25:49.607Z">
+<meta property="og:updated_time" content="2018-07-12T18:36:37.034Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="IOI2017 Practice Task - MOUNTAINS">
 <meta name="twitter:description" content="Mountains翻譯自：IOI2017 practice tasks - Mountains Tahmuras，古代波斯的第三個王，他征服了龐大數量的惡魔軍團。他現在想要把這些惡魔關在 Alborz 山，然後讓剩下的惡魔離開。 Alborz 山的稜線由 n 個頂點組成，第 i 個 (0 ≤ i ≤ n - 1) 頂點的座標為 (i, y[i]) ，其中 i 為長度，y[i] 為高度。 惡魔要被關">
@@ -38,7 +38,7 @@
 	</h1>
 	<nav class="nav">
 		<ul>
-			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li>
+			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li><li><a href="/tags">Tags</a></li>
 			<li><a id="nav-search-btn" class="nav-icon" title="Search"></a></li>
 			
 		</ul>
@@ -78,6 +78,7 @@
 <p>惡魔要被關在不同的地方，且兩個惡魔不可以看到對方，如果他們的視線可以對上的話他們就可以策劃逃跑計畫。兩隻惡魔要被山擋住的條件就是他們之間只要有一個比他們兩點連線還要高的頂點。如下圖，一個惡魔在頂點０那麼他可以看得到在頂點２頂點３的惡魔，但是看不到在頂點３,４,５的惡魔，因為頂點２比頂點０到頂點３,４,５的連線還高。</p>
 <p><img src="images/mountain.png" alt=""></p>
 <p>現在請你幫忙 Tahmuras 找出可以放惡魔的最多數量。</p>
+<a id="more"></a>
 <h1 id="實作細節"><a href="#實作細節" class="headerlink" title="實作細節"></a>實作細節</h1><p>你必須實作以下的程式，你的程式將會被每個 case 呼叫一次。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">int maximum_deevs(int[] y)</span><br></pre></td></tr></table></figure></p>
 <ul>
 <li>y : 一個長度為 n 的整數陣列，儲存每個點的高度。</li>
@@ -122,6 +123,15 @@
 	
     
 <nav id="article-nav">
+  
+    <a href="/2018/07/13/test/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          test
+        
+      </div>
+    </a>
   
   
     <a href="/2018/07/09/IOI2017-coin/" id="article-nav-older" class="article-nav-link-wrap">
